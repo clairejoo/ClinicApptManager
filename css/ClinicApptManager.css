@@ -1,3 +1,12 @@
+/* carousel control icon*/
+.left-control {
+    background-image: url("../images/slideControlLeft.png") !important;
+}
+
+.right-control {
+    background-image: url("../images/slideControlRight.png") !important;
+}
+
 /* home.html */
 .infoBoxes {
     margin-top: 50px;
@@ -223,7 +232,7 @@
     width: 100%;
     padding-top: 200px;
     padding-bottom: 500px;
-    background: url(/images/appointmentBackground.jpg) no-repeat center center fixed;
+    background: url(../images/appointmentBackground.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
