@@ -1,10 +1,19 @@
 /* carousel control icon*/
 .left-control {
+/*    background-image: url("/images/slideControlLeft.png") !important;*/
+}
+
+.carousel-control-prev-icon {
     background-image: url("/images/slideControlLeft.png") !important;
 }
 
+
 .right-control {
-    background-image: url("/images/slideControlRight.png")!important;
+/*    background-image: url("/images/slideControlRight.png")!important;*/
+}
+
+.carousel-control-next-icon {
+    background-image: url("/images/slideControlRight.png") !important;
 }
 
 
