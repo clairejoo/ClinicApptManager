@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/ClinicApptManager.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    
+	<title>Clinic Appointment Manager</title>
+</head>
+
+<body>
+<div class="container">
+    <div w3-include-html="navbar.html"></div>
+</div>
+<div class="subtitle-bg">
+    <div class="container">
+        <h1>Appointment</h1>
+    </div>
+</div>
+<div id="alert-success" class="alert alert-info alert-dismissible">
+    <div id="alert-success-message"></div>
+</div>
+<div id="alert-failure" class="alert alert-danger alert-dismissible">
+    <div id="alert-failure-message"></div>
+</div>
+<div class="cover"> 
+    <div class="appt">
+        <div>
+            <input id="text-date" type="text" class="appt-space input-padding input-date"/>
+            <div class="btn-group appt-space">
+                <button id="text-time" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Time </button>
+                <ul id="time-dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                </ul>
+            </div>        
+            <div class="btn-group appt-space">
+                <button id="text-vets" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vets </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="vets-name"><a class="dropdown-item" href="#">Sam McDonald</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li class="vets-name"><a class="dropdown-item" href="#">Claire Joo</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li class="vets-name"><a class="dropdown-item" href="#">Andrew Goodwin</a></li>
+                </ul>
+            </div>
+            <div class="btn-group appt-space">
+                <button id="text-services" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="services-name"><a class="dropdown-item" href="#">New Patient</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li class="services-name"><a class="dropdown-item" href="#">Health Check Only</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li class="services-name"><a class="dropdown-item" href="#">Vaccination</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li class="services-name"><a class="dropdown-item" href="#">Ear/Eye/Skin</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="appt-secondeline">
+            <input id="text-name" type="text" placeholder="Name" class="appt-space input-padding input-name">
+            <input id="text-number" type="text" placeholder="Contact number" class="input-padding">
+            <input id="submit-button" class="btn btn-primary submit-gap" type="submit" value="Submit">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script>w3.includeHTML();</script>
+<script src="js/appointment.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+
+</html>

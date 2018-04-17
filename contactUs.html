@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/ClinicApptManager.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    
+	<title>Clinic Appointment Manager</title>
+</head>
+
+<body>
+<div class="container">
+    <div w3-include-html="navbar.html"></div>
+</div>
+<div class="subtitle-bg">
+    <div class="container">
+        <h1>Contact Us</h1>
+    </div>
+</div>
+<div class="container">
+    <div id="map"></div>
+    
+    <div class="row contact-us-group">
+        <div class="col-lg-3 contact-us-box">
+            <img src="images/address.png" alt="">
+            <h4 class="contact-us-subtitle">Address</h4>
+            <p class="contact-us-text">
+                Sunflower Clinic
+                6 Sunflower St
+                Wynnum QLD 4178
+                <br>
+                (5 mins walk from Wynnum Central Station)
+            </p>
+        </div>
+        <div class="col-lg-3 contact-us-box">
+            <img src="images/phone.png" alt="">
+            <h4 class="contact-us-subtitle">Phone&amp;Fax</h4>
+            <p class="contact-us-text">
+                Phone: 02 1234 5678
+                <br>
+                Fax: 02 1234 5678
+            </p>
+        </div>
+        <div class="col-lg-3 contact-us-box">
+            <img src="images/mail.png" alt="">
+            <h4 class="contact-us-subtitle">Email</h4>
+            <p class="contact-us-text">
+                admin@sunflowerclinic.com.au
+            </p>
+        </div>
+        <div class="col-lg-3 contact-us-box">
+            <img src="images/calendar.png" alt="">
+            <h4 class="contact-us-subtitle">Appointment</h4>
+            <p class="contact-us-text">
+                <a href="appointment.html#appointment">Book Appointment Online</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/contactUs.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script>w3.includeHTML();</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2XBi_ogxTxgL03dUBPuxVrtgTXesrUM0&callback=initMap"></script>
+</body>
+
+</html>

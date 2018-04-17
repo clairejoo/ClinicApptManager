@@ -1,0 +1,16 @@
+.navbarButton {
+    color: #545354;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbarButton:hover {
+    color: #efbc11;
+}
+
+.about-item:hover {
+    color: #efbc11;
+}
+
+.clinicicon {
+    font-size: 80px !important;
+}
