@@ -32,6 +32,15 @@
     font-family: 'Roboto', sans-serif; 
 }
 
+.footer-about-link {
+    color: lightgray;
+}
+
+.footer-about-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .footer-link {
     font-size: 13px;
     font-family: 'Roboto', sans-serif; 
